@@ -1,0 +1,15 @@
+body {
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+  }
+
+.container{
+    min-height: 100vh;
+    max-width: 950px;
+    margin: 0 auto;
+    padding:  0 50px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+}

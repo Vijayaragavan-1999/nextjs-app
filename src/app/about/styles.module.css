@@ -1,0 +1,25 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.aboutimage{
+    margin-top: 30px;
+}
+.bottomabout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.bottom{
+    width: 50%;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.bottom h1{
+    font-size: 23px;
+}

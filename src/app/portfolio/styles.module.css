@@ -1,0 +1,47 @@
+.work{
+font-size: 50px;
+background: linear-gradient(to bottom,#194c33,#bbb);
+-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 10px;
+}
+.port {
+    position: relative;
+    width: 250px;
+    height: 330px;
+  }
+  
+  .portimage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    border: grey solid 3px;
+  }
+  .port:hover .portname {
+    scale: 1.05;
+    color: skyblue;
+    font-weight: 600;
+  }
+  
+  .port:hover .portimage {
+    scale: 1.05;
+  }
+  
+  .portname{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-size: 30px;
+    padding: 5px 10px;
+    text-align: center;
+  }
+  

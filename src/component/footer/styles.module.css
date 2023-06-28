@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.socilIcons{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    
+}
+.icon{
+    cursor: pointer;
+}

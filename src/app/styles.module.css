@@ -1,0 +1,26 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.homeimage{
+    /* animation: move 5s infinite ease alternate; */
+}
+@keyframes move {
+    from{
+        transform: translateY(-15px);
+    }
+    to{
+        transform: translateY(0) scale(1.05);
+    }
+    
+}
+.homeLeft{
+    width: 38%;
+}
+.homeLeft h1{
+    font-size: 45px;
+    background: linear-gradient(to bottom,#194c33,#bbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

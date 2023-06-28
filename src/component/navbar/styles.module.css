@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.decoration{
+    text-decoration: none;
+    color: white;
+}
+.title{
+    text-decoration: none;
+    color: white;
+}
